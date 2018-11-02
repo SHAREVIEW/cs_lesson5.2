@@ -15,14 +15,14 @@ namespace cs_lesson5._2
             east = 3,
             west = 4
         }
-        struct route          //定义结构
+        struct route          //定义结构，路径
         {
             public orientation direction;    //结构的数据成员
             public double distance;
         }
         static void Main(string[] args)
         {
-            route myRoute;
+            route myRoute;         //定义的新类型变量可以使用上面的结构
             int myDirection = -1;
             double myDistance;
             Console.WriteLine("1) North\n2) South\n3) East\n4) West");
